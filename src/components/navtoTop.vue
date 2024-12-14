@@ -7,7 +7,7 @@ const { calculationList } = storeToRefs(useCartList)
 </script>
 
 <template>
-  <div class="position-fixed me-2 mb-2" style="bottom: 0;right: 0; z-index:5;">
+  <div class="position-fixed me-1 mb-3" style="bottom: 0;right: 0; z-index:5;">
     <a href="#" class="btn btn-primary rounded-circle">
       <font-awesome-icon icon="arrow-up" />
     </a>
