@@ -1,0 +1,61 @@
+.btn-danger {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn_effect {
+  &:hover {
+    animation: btn_active 0.8s infinite;
+  }
+}
+@keyframes btn_active {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.btn-outline-primary {
+  &:after {
+    width: 100%;
+    border: 1px solid #000;
+  }
+}
+.btn_custom {
+  position: relative;
+  padding: 5px 40px;
+  border: 2px solid #0072E3; 
+  z-index: 1;
+  color:#0072E3 ;
+  &:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0072E3;
+    transform-origin:0% 50%;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+    z-index: -1;
+  }
+}
+.btn_custom {
+  &:hover {
+    color: #fff;
+  }
+  &:hover:before {
+    transform: scaleX(100%);
+  }
+}
+.btn_custom2 {
+  border: 1px solid #0072E3;
+  color: #0072E3;
+  padding: 5px 14px;
+}
+
+

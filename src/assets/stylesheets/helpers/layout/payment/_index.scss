@@ -1,0 +1,42 @@
+.total_steps {
+  .each_step {
+    background-color: #D2E9FF;
+    color: 	#ADADAD;
+    border-radius: 5px;
+    z-index: 2;
+    font-size: 0.75rem;
+    line-height: 10px;
+    transition: all 0.5s;
+    padding: 8px;
+    text-wrap: nowrap;
+  }
+  .step_active {
+    background-color: #0072E3 !important;
+    color: 	#FFE66F !important;
+  }
+}
+@media (min-width: 375px) {
+  .total_steps {
+    .each_step {
+      padding: 9px;
+      font-size: 0.85rem;
+    }
+  }
+}
+@media (min-width: 576px) {
+  .total_steps {
+    .each_step {
+      padding: 9px;
+      font-size: 1.0rem;
+    }
+    .bi {
+      font-size: 2.2rem;
+    }
+  }
+ }
+.progress {
+  background-color: #D2E9FF !important;
+}
+.error_msg {
+  color: red;
+}

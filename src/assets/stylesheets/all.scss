@@ -1,0 +1,40 @@
+// Required
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/utils/variables";
+
+//base
+@import "./helpers/base/typography";
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+// components
+@import "./helpers/components/swiper";
+@import "./helpers/components/buttons";
+@import "./helpers/components/link";
+@import "./helpers/components/breadcum";
+@import "./helpers/components/text";
+@import "./helpers/components/sweetAlert2";
+@import "./helpers/components/cursor";
+
+//layout
+@import "./helpers/layout/home/footer";
+@import "./helpers/layout/home/header";
+@import "./helpers/layout/home/info";
+@import "./helpers/layout/home/category";
+@import "./helpers/layout/home/illustration";
+@import "./helpers/layout/home/about"; 
+@import "./helpers/layout/about/about";
+@import "./helpers/layout/product/product";
+@import "./helpers/layout/detail/detail";
+@import "./helpers/layout/payment/index";
+
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+@import "../../../node_modules/bootstrap/scss/variables-dark";
+@import "../../../node_modules/bootstrap/scss/maps";
+
+@import "./helpers/utils/utilities";
+@import "../../../node_modules/bootstrap/scss/utilities";
+
+@import "../../../node_modules/bootstrap/scss/bootstrap"; 
+

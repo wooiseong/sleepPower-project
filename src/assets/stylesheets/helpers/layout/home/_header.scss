@@ -1,0 +1,29 @@
+.navbar-nav {
+  a.router-link-active {
+    color:  #000 !important;
+    font-weight: 700 !important;
+  }
+}
+.nav_bold {
+  &:hover {
+    font-weight: 700 !important;
+    animation: moving 0.2s 2;
+  }
+}
+@keyframes moving {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.carousel_holder {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

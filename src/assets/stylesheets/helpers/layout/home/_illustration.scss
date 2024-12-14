@@ -1,0 +1,82 @@
+.progress-bar-striped {
+  animation: progress_bar 5s infinite ease-in-out !important;
+}
+@keyframes progress_bar {
+  0% {
+    width: 0%;
+  }
+  20% {
+    width: 16%;
+  }
+  30% {
+    width: 16%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.progress_icon {
+  position: relative;
+  img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: progress_icon 5s infinite ease-in-out;
+  }
+}
+@keyframes progress_icon {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 16%;
+  }
+  30% {
+    left: 16%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.progress_img{
+  .progress_item1 img {
+    animation: show_up1 5s 1s infinite;
+  }
+  .progress_item2 img {
+    animation: show_up2 5s 4s infinite;
+  }
+}
+@keyframes show_up1{
+  0% {
+     box-shadow: rgba(255, 0, 0, 0.8) 0px 0px 0px;
+  }
+  20%{
+    box-shadow: rgba(255, 0, 0, 0.8) 0px 0px 20px;
+  }
+  70%{
+    box-shadow: rgba(255, 0, 0, 0.8) 0px 0px 0px;
+  }
+  100%{
+    box-shadow: rgba(255, 0, 0, 0.8) 0px 0px 0px;
+  }
+}
+@keyframes show_up2{
+  0% {
+    box-shadow: rgba(0, 238, 0, 0.8) 0px 0px 0px;
+  }
+  10% {
+    box-shadow: rgba(0, 238, 0, 0.8) 0px 0px 20px;
+  }
+  20% {
+    box-shadow: rgba(0, 238, 0, 0.8) 0px 0px 20px;
+  }
+  30% {
+    box-shadow: rgba(0, 238, 0, 0.8) 0px 0px 0px;
+  }
+  100%{
+    box-shadow: rgba(0, 238, 0, 0.8) 0px 0px 0px;
+  }
+}
+
+
+

@@ -1,0 +1,35 @@
+.category_area{
+  position: relative;
+  background-image: url("https://i.ibb.co/Qjfd9Mv/illus1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} 
+@media (min-width: 320px) {
+  .category_group {
+    background-color: #FFE66F;
+    .btn_custom2 {
+      background-color: #0072E3;
+      color: #fff;
+      font-weight: 700;
+    }
+  }  
+}
+@media (min-width: 768px) { 
+  .category_group {
+    background-color: transparent;
+    transition: all 0.2s ease-out;
+    &:hover {
+      background-color: #FFE66F;
+    }
+  .btn_custom2 {
+    background-color: transparent;
+    color: #0072E3;
+  }
+  &:hover .btn_custom2 {
+    background-color: #0072E3;
+    color: #fff;
+    font-weight: 700;
+  }
+  }  
+}
