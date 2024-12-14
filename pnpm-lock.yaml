@@ -62,6 +62,9 @@ importers:
       jquery:
         specifier: ^3.7.1
         version: 3.7.1
+      node-module:
+        specifier: ^1.0.1
+        version: 1.0.1
       pinia:
         specifier: ^2.2.6
         version: 2.2.6(vue@3.5.12)
@@ -69,7 +72,7 @@ importers:
         specifier: ^2.9.0
         version: 2.9.0
       sweetalert2:
-        specifier: ^11.14.5
+        specifier: ^11.6.13
         version: 11.14.5
       swiper:
         specifier: ^11.1.14
@@ -1606,6 +1609,9 @@ packages:
 
   node-fetch-native@1.6.4:
     resolution: {integrity: sha512-IhOigYzAKHd244OC0JIMIUrjzctirCmPkaIfhDeGcEETWof5zKYUW7e7MYvChGWh/4CJeXEgsRyGzuF334rOOQ==}
+
+  node-module@1.0.1:
+    resolution: {integrity: sha512-6fuMnxuvV8B2h8T+GYHgM7J1zjcMw47lFEUt2QWko0RNCR+0sHLD9pGj2QLJp19VPn//duOX+qa/BwRZQ6ZQ/A==}
 
   node-releases@2.0.18:
     resolution: {integrity: sha512-d9VeXT4SJ7ZeOqGX6R5EM022wpL+eWPooLI+5UpWn2jCT1aosUQEhQP214x33Wkwx3JQMvIm+tIoVOdodFS40g==}
@@ -3637,6 +3643,8 @@ snapshots:
     optional: true
 
   node-fetch-native@1.6.4: {}
+
+  node-module@1.0.1: {}
 
   node-releases@2.0.18: {}
 
