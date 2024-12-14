@@ -40,7 +40,7 @@ const clearCartAction = () => {
         <h5 class="offcanvas-title" id="offcanvasExampleLabel">購物車清單</h5>
         <button type="button" class="btn-close text-reset" style="opacity: 1;" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <div v-if="useCartList.cartList.length < 1 " class="offcanvas-body mt-2">
+      <div v-if="useCartList.cartList.length < 1 " class="offcanvas-body mt-5">
         <emptyCart></emptyCart>
       </div>
       <div v-else class="offcanvas-body">
