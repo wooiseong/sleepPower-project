@@ -65,11 +65,11 @@ const swiperProductDetail = (itemId) => {
           </div>
         </a>
         <div class="card-body py-2 position-relative">
-          <div class="card-text text-start ps-3">
+          <div class="card-text text-start ps-3 ps-md-2 ps-lg-3">
               <span>{{ item.name }}</span>
               <p class="fs-6 m-auto">售價: NT {{ item.price }}</p>
           </div>
-          <a @click="iconAddCart(item)" class="btn btn-outline-primary btn_effect position-absolute end-0 bottom-0 translate-middle me-2">
+          <a @click="iconAddCart(item)" class="btn btn-outline-primary btn_effect position-absolute end-0 bottom-0 translate-middle me-2 me-md-0 me-lg-2">
             <font-awesome-icon icon="fa-solid fa-cart-shopping" />
           </a>
         </div>
