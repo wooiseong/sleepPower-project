@@ -3,7 +3,7 @@
 This is a web application built with Vue 3.0 and JSON Server. It imitates a bedding shopping website where you can readily find pillows, sofas and beds. </br></br> You just need to add the items to your shopping cart and fill in some information to own these products!
 
 ## Functionality
-| Header 1 | Header 2 | Header 3 |
+| __Header 1__ | Header 2 | Header 3 |
 |----------|----------|----------|
 | Row 1    | Data 1   | Data 2   |
 | Row 2    | Data 3   | Data 4   |
