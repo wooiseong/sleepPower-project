@@ -5,7 +5,7 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 ## Features
 |          Components               | Description                                                  | URL                  |
 | :--------------------------: | ------------------------------------------------------------ | -------------------- |
-|    Home    | 1. There is navigation bar on the top of the page that directs to About, Product and Shopping Cart<br>2. User can obtain general informations about sleep<br>3. Updated promotion items are exhibited via Swiper at the end of the page | /      |
+|    Home    | 1. Navigation bar that directs to About, Product and Shopping Cart is provided<br>2. User can obtain general informations about sleep<br>3. Updated promotion items are exhibited via Swiper | /      |
 |      About       | 1. User can log in using registered email<br>2. User can get a warning message for incorrect password or unregistered account | /about         |
 |        Product        | 1. User can choose to reset password by providing email<br>2. User can receive an email with reset link<br>3. User can reset email by visiting reset link | /productList         |
 |           Product Detail            | User can log out of an account                               | /detail?itemId        |
