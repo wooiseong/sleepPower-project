@@ -12,7 +12,7 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 |      Payment-Total     | A summary of products stored in shopping cart is provided | /payment/total                    |
 |      Payment-Information       | 1. Informations about the users are required<br>2. Users will get a warning message for invalid input format | /payment/infromation       |
 |       Payment-Confirmation        | 1. A summary of products and information is set up<br> 2. A modal will popped up for final confirmation       | /payment/confirm   |
-|      Payment-Success       | 1. Congraz!:clap::clap::clap:<br> 2. The order reference number is produced and click-to-copy function is provided    | /payment/success |
+|      Payment-Success       | 1. Congraz!<br> 2. The order reference number is produced and click-to-copy function is provided    | /payment/success |
 |        Page not found        | Users will be directed to this page if the URL does not match any route | /anyURL      |
 |      Shopping Cart        | Users can change the quantity and drop unwanted products |                     |
 |      Breadscrumb        | Users can be directed to parent pages  |                     |
