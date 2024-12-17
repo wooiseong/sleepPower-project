@@ -6,12 +6,12 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 
 
 ## Tools
-1. Designs (&nbsp;Bootstrap + Sass&nbsp;)
-2. Framework (Vue)
-3. Building tool (Vite) 
-4. Storage (Pinia)
-5. Backend (JSON Server)
-6. Deployment (Vercel)
+1. Designs&nbsp; (&nbsp;Bootstrap + Sass&nbsp;)
+2. Framework&nbsp; (&nbsp;Vue&nbsp;)
+3. Building tool&nbsp; (&nbsp;Vite&nbsp;) 
+4. Storage&nbsp; (&nbsp;Pinia&nbsp;)
+5. Backend&nbsp; (&nbsp;JSON Server&nbsp;)
+6. Deployment&nbsp; (&nbsp;Vercel&nbsp;)
 
 ## Installation
 
