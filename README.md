@@ -1,14 +1,10 @@
 # SleepProject :sleeping: :zzz: :zzz:
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a web application built with Vue 3.0 and JSON Server. It imitates a bedding shopping website where you can readily find pillows, sofas and beds. You just need to add the items to your shopping cart and fill in some information to own these products!
 
-## Recommended IDE Setup
+Trial in this project
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
