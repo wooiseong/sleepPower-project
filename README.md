@@ -56,4 +56,4 @@ pnpm lint
 ```
 
 ## Authors
-<a href="https://github.com/wooiseong">wooiseong</a> :smiley:
+:smiley: <a href="https://github.com/wooiseong">wooiseong</a> :smiley:
