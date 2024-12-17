@@ -1,4 +1,4 @@
-# SleepProject :sleeping::zzz::zzz:
+# SleepProject :sleeping::zzz:
 
 This is a web application built with Vue 3.0 and JSON Server. It imitates a bedding shopping website where you can readily find pillows, sofas and beds. </br></br> You just need to add the items to your shopping cart and fill in some information to own these products!
 
@@ -10,12 +10,12 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 |      Product        | 1. A full list of products is displayed. <br>2. Users can select products through category filters  | /productList         |
 |      Product Detail  | 1. Users can view all details of the intersted product and add it to the shopping cart              | /detail?itemId        |
 |      Payment-Total     | 1. A summary of products stored in shopping cart is provided<br> | /payment/total                    |
-|      Payment-Information       | 1. Informations about the users are required<br>2.  <br>3. Users will get a warning message for invalid input format | /payment/infromation        |
-|       Payment-Confirmation        | User can update detail info of an expense after login        | /payment/confirm   |
-|      Payment-Success       | 1. User can delete an expense after login<br>2. User can receive a warning message before actual delete | /payment/success |
-|        Page not found        | User can get an error message when travelling to a page not existing | /anyURL      |
-|      Shopping Cart        | 1. User can view expense detail after login<br>2. User can get an error message when no expense to display after login |                     |
-|      Breadscrumb        | 1. User can view expense detail after login<br>2. User can get an error message when no expense to display after login |                     |
+|      Payment-Information       | 1. Informations about the users are required<br>2. Users will get a warning message for invalid input format | /payment/infromation       |
+|       Payment-Confirmation        | 1. A summary of products and information is set up<br> 2. A modal will popped up for final confirmation       | /payment/confirm   |
+|      Payment-Success       | 1. Congraz!:clap::clap::clap:<br> 2. The order reference number is produced and click-to-copy function is provided    | /payment/success |
+|        Page not found        | Users will be directed to this page if the URL does not match any route | /anyURL      |
+|      Shopping Cart        | 1. Users can change the quantity and drop unwanted products |                     |
+|      Breadscrumb        | 1. Users can be directed to parent pages  |                     |
 
 ## Tools
 1. Designs&nbsp; (&nbsp;Bootstrap + Sass&nbsp;)
