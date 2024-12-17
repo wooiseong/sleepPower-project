@@ -12,6 +12,7 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 4. Storage&nbsp; (&nbsp;Pinia&nbsp;)
 5. Backend&nbsp; (&nbsp;JSON Server&nbsp;)
 6. Deployment&nbsp; (&nbsp;Vercel&nbsp;)
+7. Code check&nbsp; (&nbsp;husky + lint-staged&nbsp;)
 
 ## Installation
 
