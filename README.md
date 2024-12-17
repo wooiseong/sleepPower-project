@@ -5,16 +5,17 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 ## Features
 |          Components               | Description                                                  | URL                  |
 | :--------------------------: | ------------------------------------------------------------ | -------------------- |
-|    Home    | 1. User can sign up an account by inputting name, email, password<br>2. User can get a warning message for invalid input format<br>3. User can be redirected to login page and receive a warning message for registered account<br>4. User can receive an email for successful registration | /users/register      |
-|      About       | 1. User can log in using registered email<br>2. User can get a warning message for incorrect password or unregistered account | /users/login         |
-|        Product        | 1. User can choose to reset password by providing email<br>2. User can receive an email with reset link<br>3. User can reset email by visiting reset link | /users/reset         |
-|           Product Detail            | User can log out of an account                               | /users/logout        |
-|      Shopping Cart        | 1. User can view expense detail after login<br>2. User can get an error message when no expense to display after login | /                    |
-|      Payment-Total      | 1. User can see total amount of all expense in number<br>2. User can see total amount of each category expense on bart chart | /                    |
-|      Payment-Information       | 1. User can add an expense with related info after login<br>2. User can get a warning message for invalid input format | /expenses/new        |
-|       Payment-Confirmation        | User can update detail info of an expense after login        | /expenses/edit/:id   |
+|    Home    | 1. User can sign up an account by inputting name, email, password<br>2. User can get a warning message for invalid input format<br>3. User can be redirected to login page and receive a warning message for registered account<br>4. User can receive an email for successful registration | /      |
+|      About       | 1. User can log in using registered email<br>2. User can get a warning message for incorrect password or unregistered account | /about         |
+|        Product        | 1. User can choose to reset password by providing email<br>2. User can receive an email with reset link<br>3. User can reset email by visiting reset link | /productList         |
+|           Product Detail            | User can log out of an account                               | /detail?itemId        |
+|      Payment-Total      | 1. User can see total amount of all expense in number<br>2. User can see total amount of each category expense on bart chart | /payment/total                    |
+|      Payment-Information       | 1. User can add an expense with related info after login<br>2. User can get a warning message for invalid input format | /payment/infromation        |
+|       Payment-Confirmation        | User can update detail info of an expense after login        | /payment/confirm/:id   |
 |      Payment-Success       | 1. User can delete an expense after login<br>2. User can receive a warning message before actual delete | /expenses/delete/:id |
-|        Page not found        | User can get an error message when travelling to a page not existing | /:any_other_URL      |
+|        Page not found        | User can get an error message when travelling to a page not existing | /anyURL      |
+|      Shopping Cart        | 1. User can view expense detail after login<br>2. User can get an error message when no expense to display after login |                     |
+|      Breadscrumb        | 1. User can view expense detail after login<br>2. User can get an error message when no expense to display after login |                     |
 
 ## Tools
 1. Designs&nbsp; (&nbsp;Bootstrap + Sass&nbsp;)
