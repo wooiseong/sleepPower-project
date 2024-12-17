@@ -33,6 +33,11 @@ Please follow the instructions to get a copy of this project.
 ### Prerequisites
  * <a href="https://pnpm.io/installation">pnpm</a> 
 
+### Clone
+```sh
+git clone https://github.com/wooiseong/sleepPower-project.git
+```
+
 ### Install pnpm packages
 ```sh
 pnpm install
