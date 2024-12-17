@@ -30,7 +30,7 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 Please follow the instructions to get a copy of this project.
 
 Prerequisites
-<a href="https://pnpm.io/installation">pnpm</a> 
+</br><a href="https://pnpm.io/installation">pnpm</a> 
 
 ```sh
 pnpm install
