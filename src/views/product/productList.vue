@@ -42,7 +42,11 @@ if (keyWords.value){
 
 //點擊顯示該類別產品
 const showProductType = (type) => {
-  useProductType(type)
+  if (type) {
+    useProductType(type)
+  } else {
+    useProductList()
+  }
   const loader = $loading.show({
   });
   setTimeout(() => {
