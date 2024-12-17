@@ -32,6 +32,7 @@ Please follow the instructions to get a copy of this project.
 ### Prerequisites
 <a href="https://pnpm.io/installation">pnpm</a> 
 
+### Install pnpm packages
 ```sh
 pnpm install
 ```
