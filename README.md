@@ -54,3 +54,6 @@ pnpm build
 ```sh
 pnpm lint
 ```
+
+## Authors
+<a href="https://github.com/wooiseong">wooiseong</a> :smiley:
