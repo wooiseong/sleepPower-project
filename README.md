@@ -11,8 +11,8 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 |           Product Detail            | User can log out of an account                               | /detail?itemId        |
 |      Payment-Total      | 1. User can see total amount of all expense in number<br>2. User can see total amount of each category expense on bart chart | /payment/total                    |
 |      Payment-Information       | 1. User can add an expense with related info after login<br>2. User can get a warning message for invalid input format | /payment/infromation        |
-|       Payment-Confirmation        | User can update detail info of an expense after login        | /payment/confirm/:id   |
-|      Payment-Success       | 1. User can delete an expense after login<br>2. User can receive a warning message before actual delete | /expenses/delete/:id |
+|       Payment-Confirmation        | User can update detail info of an expense after login        | /payment/confirm   |
+|      Payment-Success       | 1. User can delete an expense after login<br>2. User can receive a warning message before actual delete | /payment/success |
 |        Page not found        | User can get an error message when travelling to a page not existing | /anyURL      |
 |      Shopping Cart        | 1. User can view expense detail after login<br>2. User can get an error message when no expense to display after login |                     |
 |      Breadscrumb        | 1. User can view expense detail after login<br>2. User can get an error message when no expense to display after login |                     |
@@ -29,7 +29,7 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 ## Installation
 Please follow the instructions to get a copy of this project.
 
-Prerequisites
+### Prerequisites
 </br><a href="https://pnpm.io/installation">pnpm</a> 
 
 ```sh
