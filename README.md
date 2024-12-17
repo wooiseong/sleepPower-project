@@ -3,7 +3,7 @@
 This is a web application built with Vue 3.0 and JSON Server. It imitates a bedding shopping website where you can readily find pillows, sofas and beds. </br></br> You just need to add the items to your shopping cart and fill in some information to own these products!
 
 ## Functionality
-|          Functions           | Detail                                                       | URL                  |
+|          Functions           | Description                                                  | URL                  |
 | :--------------------------: | ------------------------------------------------------------ | -------------------- |
 |    Sign up for an account    | 1. User can sign up an account by inputting name, email, password<br>2. User can get a warning message for invalid input format<br>3. User can be redirected to login page and receive a warning message for registered account<br>4. User can receive an email for successful registration | /users/register      |
 |      Log in with email       | 1. User can log in using registered email<br>2. User can get a warning message for incorrect password or unregistered account | /users/login         |
