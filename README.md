@@ -4,7 +4,7 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 
 ## Functionality
 | Functions |  Details  | Path |
-|:-----|:--------:|------:|
+|:----------|:----------:|------:|
 | L0   | **bold** | $1600 |
 | L1   |  `code`  |   $12 |
 | L2   | _italic_ |    $1 |
