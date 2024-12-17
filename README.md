@@ -2,8 +2,10 @@
 
 This is a web application built with Vue 3.0 and JSON Server. It imitates a bedding shopping website where you can readily find pillows, sofas and beds. You just need to add the items to your shopping cart and fill in some information to own these products!
 
-Trial in this project
+# Functionality
 
+
+# Tools
 
 
 ## Project Setup
