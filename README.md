@@ -15,8 +15,7 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 7. Code check&nbsp; (&nbsp;husky + lint-staged&nbsp;)
 
 ## Installation
-
-## Project Setup
+Please follow the instructions to get a copy of this project.
 
 ```sh
 pnpm install
