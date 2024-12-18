@@ -7,7 +7,7 @@ Desktop (1366px)
 
 Phone (375px)
 
-You can click on this link to more :point_right::point_right::point_right: 
+You can click on this link to view more pictures :point_right::point_right::point_right: 
 <a href="https://drive.google.com/drive/folders/1egRAHG3BL2f-zCDOnPX6_V9AMUe5CN5E?usp=drive_link">sleepProject</a>
 
 ## Features
