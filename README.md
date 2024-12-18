@@ -34,6 +34,9 @@ You can click on this link to view more pictures :point_right::point_right::poin
 7. Deployment&nbsp; (&nbsp;Vercel&nbsp;)
 8. Code check&nbsp; (&nbsp;husky + lint-staged&nbsp;)
 
+## Bugs/Future plans
+1. The large circle of customized cursor (plugin-GSAP) is not appeared during the first load of this project, until the page is refreshed. I will figure it out or change another cursor animation.
+
 ## Installation
 Please follow the instructions to get a copy of this project.
 
