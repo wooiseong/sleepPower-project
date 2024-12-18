@@ -6,7 +6,7 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 Desktop (1366px)
 
 Phone (375px)
-![Alt text](https://ibb.co/tmDm1dH)
+![Alt text](https://drive.google.com/file/d/1CI8Zt8o9afxmvfpMEjx52agR8hcfcwBN/view?usp=drive_link)
 You can click on this link to view more pictures :point_right::point_right::point_right: 
 <a href="https://drive.google.com/drive/folders/1egRAHG3BL2f-zCDOnPX6_V9AMUe5CN5E?usp=drive_link">sleepProject</a>
 
