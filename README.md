@@ -2,8 +2,12 @@
 
 This is a web application built with Vue 3.0 and JSON Server. It imitates a bedding shopping website where you can readily find pillows, sofas and beds. </br></br> You just need to add the items to your shopping cart and fill in some information to own these products!
 
+The project is deployed on Vercel.
+
+
 ## Project View
 Desktop (1366px)
+
 ![image](https://i.ibb.co/2ndnpbF/1.png)
 
 You can click on this link to view more pictures :point_right::point_right::point_right: 
