@@ -12,7 +12,7 @@ Desktop (1366px)
 ![image](https://i.ibb.co/2ndnpbF/1.png)
 
 You can click on this link to view more pictures :point_right::point_right::point_right: 
-<a href="https://drive.google.com/drive/folders/1egRAHG3BL2f-zCDOnPX6_V9AMUe5CN5E?usp=drive_link">sleepProject</a>
+<a href="https://drive.google.com/drive/folders/1egRAHG3BL2f-zCDOnPX6_V9AMUe5CN5E?usp=drive_link" target="_blank">sleepProject</a>
 
 ## Features
 |          Components               | Description                                                  | URL                  |
