@@ -79,6 +79,5 @@ pnpm build
 ```sh
 pnpm lint
 ```
-
-## Authors
-:smiley: <a href="https://github.com/wooiseong">wooiseong</a> :smiley:
+### Contact
+* <a href= "mailto:wooiseongseong96@gmail.com">Email:  &nbsp;wooiseongseong96@gmail.com</a>
