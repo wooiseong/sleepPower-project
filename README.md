@@ -31,7 +31,7 @@ You can click on this link to view more pictures :point_right::point_right::poin
 
 ## Tools
 1. Designs&nbsp; (&nbsp;Bootstrap + Sass&nbsp;)
-2. Framework&nbsp; (&nbsp;Vue&nbsp;)
+2. Framework&nbsp; (&nbsp;Vue 3&nbsp;)
 3. Building tool&nbsp; (&nbsp;Vite&nbsp;) 
 4. Storage&nbsp; (&nbsp;Pinia&nbsp;)
 5. Validation&nbsp; (&nbsp;Vee-validate + Yup&nbsp;)
