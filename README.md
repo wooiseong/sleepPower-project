@@ -37,7 +37,7 @@ You can click on this link to view more pictures :point_right::point_right::poin
 5. Validation&nbsp; (&nbsp;Vee-validate + Yup&nbsp;)
 6. Backend&nbsp; (&nbsp;JSON Server&nbsp;)
 7. Deployment&nbsp; (&nbsp;Vercel&nbsp;)
-8. Code check&nbsp; (&nbsp;husky + lint-staged&nbsp;)
+8. Code check&nbsp; (&nbsp;Husky + Lint-staged&nbsp;)
 
 ## Backend database (JSON server)
 * <a href="https://github.com/wooiseong/sleepPower-jsonServer">Github</a>
