@@ -35,9 +35,10 @@ You can click on this link to view more pictures :point_right::point_right::poin
 3. Building tool&nbsp; (&nbsp;Vite&nbsp;) 
 4. Storage&nbsp; (&nbsp;Pinia&nbsp;)
 5. Validation&nbsp; (&nbsp;Vee-validate + Yup&nbsp;)
-6. Backend&nbsp; (&nbsp;JSON Server&nbsp;)
-7. Deployment&nbsp; (&nbsp;Vercel&nbsp;)
-8. Code check&nbsp; (&nbsp;Husky + Lint-staged&nbsp;)
+6. HTTP request&nbsp; (&nbsp;Axios&nbsp;)
+7. Backend&nbsp; (&nbsp;JSON Server&nbsp;)
+8. Deployment&nbsp; (&nbsp;Vercel&nbsp;)
+9. Code check&nbsp; (&nbsp;Husky + Lint-staged&nbsp;)
 
 ## Backend database (JSON server)
 * <a href="https://github.com/wooiseong/sleepPower-jsonServer">Github</a>
