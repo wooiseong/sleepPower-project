@@ -22,13 +22,13 @@
               </router-link>
             </div>
             <div class="footer_contact mt-1 d-flex justify-content-around">
-              <a class=" mx-md-4 fs-3">
+              <a href="https://github.com/wooiseong" class=" mx-md-4 fs-3" target="_blank">
                 <font-awesome-icon icon="fa-brands fa-github" />
               </a>
-              <a class="mx-md-2 fs-4">
+              <a href="https://www.linkedin.com/in/%E5%81%89%E9%9B%84-%E5%BC%B5-74219b193/" class="mx-md-2 fs-4" target="_blank">
                 <font-awesome-icon icon="fa-brands fa-linkedin" />
               </a>
-              <a href="mailto:wooiseongseong96@gmail.com" class="mx-md-4 fs-4">
+              <a href="mailto:wooiseongseong96@gmail.com" class="mx-md-4 fs-4" >
                 <font-awesome-icon icon="fa-solid fa-envelope" />
               </a>
             </div>

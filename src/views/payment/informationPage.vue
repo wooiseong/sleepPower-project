@@ -21,16 +21,16 @@ const toast = useToast()
 const personalStore = usePersonalStore()
 const router = useRouter()
 
-setLocale(zhtw);
+setLocale(zhtw)
 const phoneReg = /^09[0-9]{8}$/
 const { errors, defineField, handleSubmit } = useForm({
   validationSchema: toTypedSchema(
     yup.object({
-      email: yup.string().email().required(),
-      name: yup.string().required(),
-      phone: yup.string().matches(phoneReg, '手機格式不正確').required(),
-      address: yup.string().required(),
-      payment: yup.string().required(),
+      email: yup.string().email().required('收件人電郵是必填項目'),
+      name: yup.string().required('收件人姓名是必填項目'),
+      phone: yup.string().matches(phoneReg, '電話格式不正確').required('收件人電話是必填項目'),
+      address: yup.string().required('收件人地址是必填項目'),
+      payment: yup.string().required('付款方式是必填項目'),
     }),
   ),
 })
@@ -136,7 +136,6 @@ const onSubmit = handleSubmit((data) => {
               <div class="col-12 d-flex justify-content-between">
                 <router-link to="/payment/total" class="btn btn-outline-primary">&lt; 上一頁</router-link>
                 <button :disabled="useCartList.cartList.length < 1" type="submit" class="btn btn-primary" >資料提交</button>
-                <!-- disabled="disabled" -->
               </div>
             </form>
           </div>
