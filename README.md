@@ -1,6 +1,18 @@
 # SleepProject :sleeping::zzz:
 
-This is a web application built with Vue 3.0 and JSON Server. It imitates a bedding shopping website where you can readily find pillows, sofas and beds. </br></br> You just need to add the items to your shopping cart and fill in some information to own these products!
+This is a web application built with Vue 3 and JSON Server. It imitates a bedding shopping website where you can readily find pillows, sofas and beds. </br></br> You just need to add the items to your shopping cart and fill in some information to own these products!
+
+Demo here :point_down: <p></p>
+<a href="https://sleep-power-project.vercel.app/"><img src="https://img.shields.io/badge/link-sleepPower-1?style=flat-square&logoColor=red&labelColor=%230072E3&color=%23FFE66F" alt="sleepPower"></a>
+
+
+## Project View
+Desktop (1366px)
+
+![image](https://i.ibb.co/2ndnpbF/1.png)
+
+You can click on this link to view more pictures :point_right::point_right::point_right: 
+<a href="https://drive.google.com/drive/folders/1egRAHG3BL2f-zCDOnPX6_V9AMUe5CN5E?usp=drive_link" target="_blank">sleepProject</a>
 
 ## Features
 |          Components               | Description                                                  | URL                  |
@@ -19,13 +31,21 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 
 ## Tools
 1. Designs&nbsp; (&nbsp;Bootstrap + Sass&nbsp;)
-2. Framework&nbsp; (&nbsp;Vue&nbsp;)
+2. Framework&nbsp; (&nbsp;Vue 3&nbsp;)
 3. Building tool&nbsp; (&nbsp;Vite&nbsp;) 
 4. Storage&nbsp; (&nbsp;Pinia&nbsp;)
 5. Validation&nbsp; (&nbsp;Vee-validate + Yup&nbsp;)
-6. Backend&nbsp; (&nbsp;JSON Server&nbsp;)
-7. Deployment&nbsp; (&nbsp;Vercel&nbsp;)
-8. Code check&nbsp; (&nbsp;husky + lint-staged&nbsp;)
+6. HTTP request&nbsp; (&nbsp;Axios&nbsp;)
+7. Backend&nbsp; (&nbsp;JSON Server&nbsp;)
+8. Deployment&nbsp; (&nbsp;Vercel&nbsp;)
+9. Code check&nbsp; (&nbsp;Husky + Lint-staged&nbsp;)
+
+## Backend database (JSON server)
+* <a href="https://github.com/wooiseong/sleepPower-jsonServer">Github</a>
+* <a href="https://sleep-power-json-server.vercel.app/">Vercel</a>
+
+## Bugs/Future plans
+1. The large circle of customized cursor (plugin-GSAP) is not appeared during the first load of this project, until the page is refreshed. I will figure it out or change another cursor animation.
 
 ## Installation
 Please follow the instructions to get a copy of this project.
@@ -60,6 +80,5 @@ pnpm build
 ```sh
 pnpm lint
 ```
-
-## Authors
-:smiley: <a href="https://github.com/wooiseong">wooiseong</a> :smiley:
+### Contact
+* <a href= "mailto:wooiseongseong96@gmail.com">Email:  &nbsp;wooiseongseong96@gmail.com</a>
