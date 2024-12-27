@@ -40,6 +40,7 @@ const [name, nameAttrs] = defineField('name')
 const [phone, phoneAttrs] = defineField('phone')
 const [address, addressAttrs] = defineField('address')
 const [payment, paymentAttrs] = defineField('payment')
+const [message] = defineField('message')
 
 const onSubmit = handleSubmit((data) => {
     personalStore.personalList = data
@@ -130,7 +131,9 @@ const onSubmit = handleSubmit((data) => {
               </div>
               <div class="col-12">
                 <label for="userMessage" class="form-label">備注</label>
-                <textarea id="message" class="form-control  form_background userMessage" name="userMessage" cols="30" rows="5"
+                <textarea 
+                v-model="message"
+                id="message" class="form-control  form_background userMessage" name="userMessage" cols="30" rows="5"
                 ></textarea>
               </div>
               <div class="col-12 d-flex justify-content-between">
